@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('https://testops.katalon.io/')
+
+WebUI.acceptAlert()
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://34.81.248.158:8080/BFIAGENT/LoginAdmin')
+WebUI.navigateToUrl('https://testops.katalon.io/')
 
-WebUI.setText(findTestObject('Object Repository/Login_CMS/Page_IGLO  Administator/input_Email_email'), 'admin@ekreasi.com')
+WebUI.click(findTestObject('Object Repository/Login TestOps/Page_Sign in  Katalon Software Quality Mana_cfddb7/div_Continue with email'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login_CMS/Page_IGLO  Administator/input_Password_password'), 'SFTQUhjBfIY=')
+WebUI.setText(findTestObject('Object Repository/Login TestOps/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_Log in with email_username'), 
+    'kataloniglo@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Login_CMS/Page_IGLO  Administator/button_Sign in'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Login TestOps/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_Log in with email_password'), 
+    '1uQHKmaGceAjclSD1WUvrw==')
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Login_CMS/Page_Home/i_Admin Indocyber_fa fa-sign-out'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Object Repository/Login_CMS/Page_Home/button_Yes'))
+WebUI.click(findTestObject('Object Repository/Login TestOps/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_Log in with email_login'))
 
 WebUI.closeBrowser()
 
