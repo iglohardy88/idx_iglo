@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Admin Indocyber_fa fa-sign-out</name>
+   <tag></tag>
+   <elementGuidId>ea2346f3-de18-45ec-8dbb-2a27a022ba67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-sign-out</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='header']/div[2]/div/span/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>f9ba3a9f-e82e-4994-89db-b31ff07d835b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-sign-out</value>
+      <webElementGuid>ea0d6c07-598f-46c0-adab-1305867992a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;pull-right&quot;]/div[@class=&quot;btn-header pull-right&quot;]/span[1]/a[1]/i[@class=&quot;fa fa-sign-out&quot;]</value>
+      <webElementGuid>b0189514-652f-4d01-8565-6781a2ec79f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='header']/div[2]/div/span/a/i</value>
+      <webElementGuid>9f580caa-ef6a-4430-8205-131618c35677</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>bd22f9a9-e0f0-4e0b-bd9c-051013042c70</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
